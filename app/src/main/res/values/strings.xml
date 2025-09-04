@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Congress Communicator</string>
+    
+    <!-- Main Activity -->
+    <string name="search_hint">Search Congress members...</string>
+    <string name="filter_all">All</string>
+    <string name="filter_house">House</string>
+    <string name="filter_senate">Senate</string>
+    <string name="filter_democrat">Democrat</string>
+    <string name="filter_republican">Republican</string>
+    <string name="filter_independent">Independent</string>
+    
+    <!-- Contact Detail -->
+    <string name="contact_details">Contact Details</string>
+    <string name="send_email">Send Email</string>
+    <string name="make_call">Make Call</string>
+    <string name="office_address">Office Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="website">Website</string>
+    <string name="party">Party</string>
+    <string name="chamber">Chamber</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    
+    <!-- Email Composer -->
+    <string name="compose_email">Compose Email</string>
+    <string name="email_subject">Subject</string>
+    <string name="email_message">Message</string>
+    <string name="send_to_selected">Send to Selected</string>
+    <string name="send_to_all">Send to All</string>
+    <string name="select_recipients">Select Recipients</string>
+    <string name="email_alias">From Email Alias</string>
+    
+    <!-- Calling -->
+    <string name="calling">Calling</string>
+    <string name="call_script">Call Script</string>
+    <string name="caller_id_alias">Caller ID Alias</string>
+    <string name="auto_navigate_menus">Auto-navigate phone menus</string>
+    <string name="use_tts">Use text-to-speech</string>
+    <string name="call_status">Call Status</string>
+    <string name="hang_up">Hang Up</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="email_settings">Email Settings</string>
+    <string name="calling_settings">Calling Settings</string>
+    <string name="smtp_server">SMTP Server</string>
+    <string name="smtp_port">SMTP Port</string>
+    <string name="smtp_username">SMTP Username</string>
+    <string name="smtp_password">SMTP Password</string>
+    <string name="sip_server">SIP Server</string>
+    <string name="sip_username">SIP Username</string>
+    <string name="sip_password">SIP Password</string>
+    <string name="tts_voice">TTS Voice</string>
+    <string name="tts_speed">TTS Speed</string>
+    
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    
+    <!-- Error Messages -->
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_email_failed">Failed to send email</string>
+    <string name="error_call_failed">Failed to make call</string>
+    <string name="error_permission_denied">Permission denied</string>
+    <string name="error_invalid_input">Invalid input</string>
+    
+    <!-- Success Messages -->
+    <string name="email_sent_successfully">Email sent successfully</string>
+    <string name="call_completed">Call completed</string>
+    <string name="settings_saved">Settings saved</string>
+</resources>
+
