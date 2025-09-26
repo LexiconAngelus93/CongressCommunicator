@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sun.mail:android-mail:1.6.8" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.sun.mail" artifactId="android-mail" version="1.6.8" baseVersion="1.6.8" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-mail/1.6.8/8a376a7ecd595b4969d372795f78bcfe2b9f88ef/android-mail-1.6.8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-mail/1.6.8/45f27dbde17f6eb5a6e0dc8ebac52416acfa4548/android-mail-1.6.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-mail/1.6.8/9eba1fc2fc988845150016d0d3489a0fd1af4ec0/android-mail-1.6.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

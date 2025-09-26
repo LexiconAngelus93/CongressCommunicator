@@ -6,10 +6,11 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositoriesMode = RepositoriesMode.PREFER_SETTINGS
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' } // Added JitPack
     }
 }
 rootProject.name = "CongressApp"

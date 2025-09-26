@@ -1,47 +1,19 @@
 [
     {
-        "merged": "com.congress.app-debug-49:/layout_activity_contact_detail.xml.flat",
-        "source": "com.congress.app-main-51:/layout/activity_contact_detail.xml"
-    },
-    {
-        "merged": "com.congress.app-debug-49:/layout_item_congress_member.xml.flat",
-        "source": "com.congress.app-main-51:/layout/item_congress_member.xml"
-    },
-    {
-        "merged": "com.congress.app-debug-49:/layout_activity_main.xml.flat",
-        "source": "com.congress.app-main-51:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.congress.app-debug-49:/drawable_ic_person.xml.flat",
-        "source": "com.congress.app-main-51:/drawable/ic_person.xml"
-    },
-    {
-        "merged": "com.congress.app-debug-49:/drawable_circle_button_background.xml.flat",
-        "source": "com.congress.app-main-51:/drawable/circle_button_background.xml"
-    },
-    {
-        "merged": "com.congress.app-debug-49:/drawable_ic_search.xml.flat",
-        "source": "com.congress.app-main-51:/drawable/ic_search.xml"
+        "merged": "com.congress.app-debug-49:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.congress.app-main-51:/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "com.congress.app-debug-49:/xml_data_extraction_rules.xml.flat",
         "source": "com.congress.app-main-51:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.congress.app-debug-49:/drawable_ic_email.xml.flat",
-        "source": "com.congress.app-main-51:/drawable/ic_email.xml"
+        "merged": "com.congress.app-debug-49:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.congress.app-main-51:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "com.congress.app-debug-49:/xml_backup_rules.xml.flat",
         "source": "com.congress.app-main-51:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "com.congress.app-debug-49:/layout_activity_calling.xml.flat",
-        "source": "com.congress.app-main-51:/layout/activity_calling.xml"
-    },
-    {
-        "merged": "com.congress.app-debug-49:/drawable_circle_background.xml.flat",
-        "source": "com.congress.app-main-51:/drawable/circle_background.xml"
     },
     {
         "merged": "com.congress.app-debug-49:/layout_item_call_log.xml.flat",
@@ -52,6 +24,14 @@
         "source": "com.congress.app-main-51:/drawable/ic_phone.xml"
     },
     {
+        "merged": "com.congress.app-debug-49:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.congress.app-main-51:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.congress.app-main-51:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "com.congress.app-debug-49:/layout_activity_settings.xml.flat",
         "source": "com.congress.app-main-51:/layout/activity_settings.xml"
     },
@@ -60,11 +40,87 @@
         "source": "com.congress.app-main-51:/drawable/party_badge_background.xml"
     },
     {
-        "merged": "com.congress.app-debug-49:/drawable_ic_web.xml.flat",
-        "source": "com.congress.app-main-51:/drawable/ic_web.xml"
+        "merged": "com.congress.app-debug-49:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.congress.app-main-51:/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "com.congress.app-debug-49:/layout_activity_email_composer.xml.flat",
         "source": "com.congress.app-main-51:/layout/activity_email_composer.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.congress.app-main-51:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/layout_activity_contact_detail.xml.flat",
+        "source": "com.congress.app-main-51:/layout/activity_contact_detail.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/layout_item_congress_member.xml.flat",
+        "source": "com.congress.app-main-51:/layout/item_congress_member.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.congress.app-main-51:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/layout_activity_main.xml.flat",
+        "source": "com.congress.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/drawable_ic_person.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.congress.app-main-51:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.congress.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/drawable_circle_button_background.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/circle_button_background.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/drawable_ic_search.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.congress.app-main-51:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/drawable_ic_email.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/layout_activity_calling.xml.flat",
+        "source": "com.congress.app-main-51:/layout/activity_calling.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.congress.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/drawable_circle_background.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/drawable_ic_web.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_web.xml"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.congress.app-main-51:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.congress.app-debug-49:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_launcher_foreground.xml"
     }
 ]

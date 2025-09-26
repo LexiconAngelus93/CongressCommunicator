@@ -24,6 +24,8 @@ color white
 drawable circle_background
 drawable circle_button_background
 drawable ic_email
+drawable ic_launcher_background
+drawable ic_launcher_foreground
 drawable ic_person
 drawable ic_phone
 drawable ic_search
@@ -94,6 +96,8 @@ layout activity_main
 layout activity_settings
 layout item_call_log
 layout item_congress_member
+mipmap ic_launcher
+mipmap ic_launcher_round
 string app_name
 string auto_navigate_menus
 string call_completed

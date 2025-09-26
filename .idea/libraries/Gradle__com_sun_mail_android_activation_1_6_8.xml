@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sun.mail:android-activation:1.6.8" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.sun.mail" artifactId="android-activation" version="1.6.8" baseVersion="1.6.8" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-activation/1.6.8/2d961ce6afe97df73245be059243476e65e6e4b3/android-activation-1.6.8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-activation/1.6.8/310b6d01d439a8c0a4a27fd6eb93493633dc6d17/android-activation-1.6.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.mail/android-activation/1.6.8/cc36497a949edf7960a2da74fc94d72ad96d8773/android-activation-1.6.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
