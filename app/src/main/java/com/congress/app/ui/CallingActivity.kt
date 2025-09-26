@@ -10,7 +10,6 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.congress.app.R
 import com.congress.app.calling.CallService
 import com.congress.app.databinding.ActivityCallingBinding
 import com.congress.app.ui.adapters.CallLogAdapter
@@ -314,6 +313,7 @@ class CallingActivity : AppCompatActivity() {
         }
     }
     
+    @Suppress("DEPRECATION")
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true

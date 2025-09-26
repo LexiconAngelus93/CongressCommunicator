@@ -4,24 +4,7 @@
             "outputFile": "com.congress.app-mergeDebugResources-47:/values-lv/values-lv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lexi\\.gradle\\caches\\8.13\\transforms\\c8aa4aa4624abf91db98c1e7f772dec4\\transformed\\core-1.17.0\\res\\values-lv\\values-lv.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,355,456,563,671,786",
-                        "endColumns": "97,101,99,100,106,107,114,100",
-                        "endOffsets": "148,250,350,451,558,666,781,882"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,124",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3599,3697,3799,3899,4000,4107,4215,10765",
-                        "endColumns": "97,101,99,100,106,107,114,100",
-                        "endOffsets": "3692,3794,3894,3995,4102,4210,4325,10861"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Lexi\\.gradle\\caches\\8.13\\transforms\\835583a5021f31275b6f36c1ca761110\\transformed\\material-1.13.0\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\Lexi\\.gradle\\caches\\8.13\\transforms\\529fbe005a5c247b8da38cbdc61d62db\\transformed\\material-1.13.0\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lexi\\.gradle\\caches\\8.13\\transforms\\39b03774e622b91834958c1180b2f8fb\\transformed\\navigation-ui-2.9.5\\res\\values-lv\\values-lv.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,169",
-                        "endColumns": "113,122",
-                        "endOffsets": "164,287"
-                    },
-                    "to": {
-                        "startLines": "117,118",
-                        "startColumns": "4,4",
-                        "startOffsets": "10131,10245",
-                        "endColumns": "113,122",
-                        "endOffsets": "10240,10363"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Lexi\\.gradle\\caches\\8.13\\transforms\\50d4875200d0bce37f83789455ec48d0\\transformed\\appcompat-1.7.1\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\Lexi\\.gradle\\caches\\8.13\\transforms\\487ec498880ba474299219b7d8b6c786\\transformed\\appcompat-1.7.1\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -71,6 +37,40 @@
                         "startOffsets": "374,494,604,713,799,903,1025,1107,1187,1297,1405,1511,1620,1731,1834,1946,2053,2158,2258,2343,2452,2563,2662,2773,2880,2985,3159,10445",
                         "endColumns": "119,109,108,85,103,121,81,79,109,107,105,108,110,102,111,106,104,99,84,108,110,98,110,106,104,173,98,82",
                         "endOffsets": "489,599,708,794,898,1020,1102,1182,1292,1400,1506,1615,1726,1829,1941,2048,2153,2253,2338,2447,2558,2657,2768,2875,2980,3154,3253,10523"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lexi\\.gradle\\caches\\8.13\\transforms\\93277231e0fb4cac8308225290f25605\\transformed\\core-1.17.0\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,456,563,671,786",
+                        "endColumns": "97,101,99,100,106,107,114,100",
+                        "endOffsets": "148,250,350,451,558,666,781,882"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,124",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3599,3697,3799,3899,4000,4107,4215,10765",
+                        "endColumns": "97,101,99,100,106,107,114,100",
+                        "endOffsets": "3692,3794,3894,3995,4102,4210,4325,10861"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lexi\\.gradle\\caches\\8.13\\transforms\\830bf19da245fbc32f148dc877d626b8\\transformed\\navigation-ui-2.9.5\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,169",
+                        "endColumns": "113,122",
+                        "endOffsets": "164,287"
+                    },
+                    "to": {
+                        "startLines": "117,118",
+                        "startColumns": "4,4",
+                        "startOffsets": "10131,10245",
+                        "endColumns": "113,122",
+                        "endOffsets": "10240,10363"
                     }
                 }
             ]

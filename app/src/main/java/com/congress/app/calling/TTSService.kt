@@ -5,7 +5,7 @@ import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
 import android.util.Log
 import kotlinx.coroutines.suspendCancellableCoroutine
-import java.util.*
+import java.util.Locale
 import kotlin.coroutines.resume
 
 /**
@@ -57,15 +57,18 @@ class TTSService(private val context: Context) {
         
         return suspendCancellableCoroutine { continuation ->
             tts?.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
+                @Suppress("DEPRECATION")
                 override fun onStart(utteranceId: String?) {
                     Log.d(TAG, "TTS started speaking: $utteranceId")
                 }
                 
+                @Suppress("DEPRECATION")
                 override fun onDone(utteranceId: String?) {
                     Log.d(TAG, "TTS finished speaking: $utteranceId")
                     continuation.resume(true)
                 }
                 
+                @Suppress("DEPRECATION")
                 override fun onError(utteranceId: String?) {
                     Log.e(TAG, "TTS error: $utteranceId")
                     continuation.resume(false)

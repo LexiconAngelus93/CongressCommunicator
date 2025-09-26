@@ -216,6 +216,7 @@ class EmailComposerActivity : AppCompatActivity() {
         binding.btnSaveDraft.isEnabled = !show
     }
     
+    @Suppress("DEPRECATION")
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true

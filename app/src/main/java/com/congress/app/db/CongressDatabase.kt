@@ -53,6 +53,7 @@ abstract class CongressDatabase : RoomDatabase() {
          * Migration from version 1 to 2 (for future use)
          */
         val MIGRATION_1_2 = object : Migration(1, 2) {
+            @Suppress("PARAMETER_NAME_CHANGED_ON_OVERRIDE")
             override fun migrate(database: SupportSQLiteDatabase) {
                 // Add migration logic here when needed
             }

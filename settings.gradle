@@ -1,3 +1,4 @@
+// pluginManagement must come before plugins block that uses it
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -5,6 +6,11 @@ pluginManagement {
         mavenCentral()
     }
 }
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
 dependencyResolutionManagement {
     repositoriesMode = RepositoriesMode.PREFER_SETTINGS
     repositories {
@@ -16,3 +22,9 @@ dependencyResolutionManagement {
 rootProject.name = "CongressApp"
 include ':app'
 
+toolchainManagement {
+    jvm {
+        // The foojay-resolver-convention plugin should now handle
+        // the configuration for downloading JDKs.
+    }
+}

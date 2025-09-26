@@ -74,6 +74,7 @@ class ContactDetailActivity : AppCompatActivity() {
         }
     }
     
+    @Suppress("DEPRECATION")
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true

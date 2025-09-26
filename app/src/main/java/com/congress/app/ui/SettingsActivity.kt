@@ -22,6 +22,7 @@ class SettingsActivity : AppCompatActivity() {
         supportActionBar?.title = "Settings"
     }
     
+    @Suppress("DEPRECATION")
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true

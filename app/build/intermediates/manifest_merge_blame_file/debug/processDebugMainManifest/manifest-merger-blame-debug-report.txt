@@ -66,22 +66,22 @@
 38-->C:\Users\Lexi\Documents\GitHub\CongressCommunicator\app\src\main\AndroidManifest.xml:32:9-33
 39
 40    <permission
-40-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\c8aa4aa4624abf91db98c1e7f772dec4\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+40-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\93277231e0fb4cac8308225290f25605\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
 41        android:name="com.congress.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-41-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\c8aa4aa4624abf91db98c1e7f772dec4\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+41-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\93277231e0fb4cac8308225290f25605\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
 42        android:protectionLevel="signature" />
-42-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\c8aa4aa4624abf91db98c1e7f772dec4\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+42-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\93277231e0fb4cac8308225290f25605\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
 43
 44    <uses-permission android:name="com.congress.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-44-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\c8aa4aa4624abf91db98c1e7f772dec4\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
-44-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\c8aa4aa4624abf91db98c1e7f772dec4\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+44-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\93277231e0fb4cac8308225290f25605\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\93277231e0fb4cac8308225290f25605\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
 45
 46    <application
 46-->C:\Users\Lexi\Documents\GitHub\CongressCommunicator\app\src\main\AndroidManifest.xml:34:5-74:19
 47        android:allowBackup="true"
 47-->C:\Users\Lexi\Documents\GitHub\CongressCommunicator\app\src\main\AndroidManifest.xml:35:9-35
 48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-48-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\c8aa4aa4624abf91db98c1e7f772dec4\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+48-->[androidx.core:core:1.17.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\93277231e0fb4cac8308225290f25605\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 49        android:dataExtractionRules="@xml/data_extraction_rules"
 49-->C:\Users\Lexi\Documents\GitHub\CongressCommunicator\app\src\main\AndroidManifest.xml:36:9-65
 50        android:debuggable="true"
@@ -151,77 +151,77 @@
 83-->C:\Users\Lexi\Documents\GitHub\CongressCommunicator\app\src\main\AndroidManifest.xml:72:13-58
 84
 85        <provider
-85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\b3c794ec1441b3196601687e7c5eb7a1\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\32a53ab2088ef4e5a2148d29670e9375\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 86            android:name="androidx.startup.InitializationProvider"
-86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\b3c794ec1441b3196601687e7c5eb7a1\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\32a53ab2088ef4e5a2148d29670e9375\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 87            android:authorities="com.congress.app.androidx-startup"
-87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\b3c794ec1441b3196601687e7c5eb7a1\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\32a53ab2088ef4e5a2148d29670e9375\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 88            android:exported="false" >
-88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\b3c794ec1441b3196601687e7c5eb7a1\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\32a53ab2088ef4e5a2148d29670e9375\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 89            <meta-data
-89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\b3c794ec1441b3196601687e7c5eb7a1\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\32a53ab2088ef4e5a2148d29670e9375\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 90                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\b3c794ec1441b3196601687e7c5eb7a1\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\32a53ab2088ef4e5a2148d29670e9375\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 91                android:value="androidx.startup" />
-91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\b3c794ec1441b3196601687e7c5eb7a1\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\32a53ab2088ef4e5a2148d29670e9375\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 92            <meta-data
-92-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\67b15c2d3b842885327b2426c070bb8a\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:29:13-31:52
+92-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\2df89ef3db121842af06ba56db9df664\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:29:13-31:52
 93                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-93-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\67b15c2d3b842885327b2426c070bb8a\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:30:17-78
+93-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\2df89ef3db121842af06ba56db9df664\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:30:17-78
 94                android:value="androidx.startup" />
-94-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\67b15c2d3b842885327b2426c070bb8a\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:31:17-49
+94-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\2df89ef3db121842af06ba56db9df664\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:31:17-49
 95            <meta-data
-95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
 96                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
 97                android:value="androidx.startup" />
-97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
 98        </provider>
 99
 100        <service
-100-->[androidx.room:room-runtime-android:2.8.1] C:\Users\Lexi\.gradle\caches\8.13\transforms\986cac1d623a4aa0faeb5f3157edd751\transformed\room-runtime\AndroidManifest.xml:24:9-28:63
+100-->[androidx.room:room-runtime-android:2.8.1] C:\Users\Lexi\.gradle\caches\8.13\transforms\2bff4c41dc218aa44cc69ed8e2d98034\transformed\room-runtime\AndroidManifest.xml:24:9-28:63
 101            android:name="androidx.room.MultiInstanceInvalidationService"
-101-->[androidx.room:room-runtime-android:2.8.1] C:\Users\Lexi\.gradle\caches\8.13\transforms\986cac1d623a4aa0faeb5f3157edd751\transformed\room-runtime\AndroidManifest.xml:25:13-74
+101-->[androidx.room:room-runtime-android:2.8.1] C:\Users\Lexi\.gradle\caches\8.13\transforms\2bff4c41dc218aa44cc69ed8e2d98034\transformed\room-runtime\AndroidManifest.xml:25:13-74
 102            android:directBootAware="true"
-102-->[androidx.room:room-runtime-android:2.8.1] C:\Users\Lexi\.gradle\caches\8.13\transforms\986cac1d623a4aa0faeb5f3157edd751\transformed\room-runtime\AndroidManifest.xml:26:13-43
+102-->[androidx.room:room-runtime-android:2.8.1] C:\Users\Lexi\.gradle\caches\8.13\transforms\2bff4c41dc218aa44cc69ed8e2d98034\transformed\room-runtime\AndroidManifest.xml:26:13-43
 103            android:exported="false" />
-103-->[androidx.room:room-runtime-android:2.8.1] C:\Users\Lexi\.gradle\caches\8.13\transforms\986cac1d623a4aa0faeb5f3157edd751\transformed\room-runtime\AndroidManifest.xml:27:13-37
+103-->[androidx.room:room-runtime-android:2.8.1] C:\Users\Lexi\.gradle\caches\8.13\transforms\2bff4c41dc218aa44cc69ed8e2d98034\transformed\room-runtime\AndroidManifest.xml:27:13-37
 104
 105        <receiver
-105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
 106            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
 107            android:directBootAware="false"
-107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
 108            android:enabled="true"
-108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
 109            android:exported="true"
-109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
 110            android:permission="android.permission.DUMP" >
-110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
 111            <intent-filter>
-111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
 112                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
 113            </intent-filter>
 114            <intent-filter>
-114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
 115                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
 116            </intent-filter>
 117            <intent-filter>
-117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
 118                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
 119            </intent-filter>
 120            <intent-filter>
-120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
 121                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\a32ad5def0f63c34ef266825aa2c11d0\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lexi\.gradle\caches\8.13\transforms\630f34cd4bd16d6a167256c2bf220f8c\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
 122            </intent-filter>
 123        </receiver>
 124    </application>

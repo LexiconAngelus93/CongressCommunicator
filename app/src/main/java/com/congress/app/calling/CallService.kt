@@ -106,7 +106,7 @@ class CallService(private val context: Context) {
             // Speak script if provided and TTS is enabled
             if (config.useTTS && config.script.isNotEmpty()) {
                 _callState.value = CallState.SPEAKING
-                val scriptSpoken = ttsService.speakScript(config.script)
+                val scriptSpoken = ttsService.readScript(config.script) // Changed speakScript to readScript
                 if (!scriptSpoken) {
                     Log.w(TAG, "Failed to speak script, but call continues")
                 }

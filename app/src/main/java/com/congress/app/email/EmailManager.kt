@@ -231,12 +231,12 @@ Sincerely,
         var body = template.body
         
         // Replace placeholders
-        val replacements = mapOf(
-            "[Representative/Senator]" to memberTitle,
-            "[Last Name]" to memberName.split(",").firstOrNull()?.trim() ?: memberName,
-            "[Your Name]" to userInfo["name"] ?: "[Your Name]",
-            "[Your Address]" to userInfo["address"] ?: "[Your Address]",
-            "[Your City, State ZIP]" to userInfo["cityStateZip"] ?: "[Your City, State ZIP]"
+        val replacements = mapOf<String, String>(
+            Pair("[Representative/Senator]", memberTitle),
+            Pair("[Last Name]", memberName.split(",").firstOrNull()?.trim() ?: memberName),
+            Pair("[Your Name]", userInfo["name"] ?: "[Your Name]"),
+            Pair("[Your Address]", userInfo["address"] ?: "[Your Address]"),
+            Pair("[Your City, State ZIP]", userInfo["cityStateZip"] ?: "[Your City, State ZIP]")
         )
         
         replacements.forEach { (placeholder, replacement) ->
