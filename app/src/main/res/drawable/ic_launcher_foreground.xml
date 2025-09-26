@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="10.8"
+        android:translateY="10.8">
+        <!-- Capitol building icon -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,20L54,16L50,16L50,20L46,20L46,24L50,24L50,28L54,28L54,24L58,24L58,20L54,20Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M20,40L88,40L88,44L84,44L84,80L24,80L24,44L20,44L20,40Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M28,48L32,48L32,76L28,76L28,48Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M36,48L40,48L40,76L36,76L36,48Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M44,48L48,48L48,76L44,76L44,48Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M52,48L56,48L56,76L52,76L52,48Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M60,48L64,48L64,76L60,76L60,48Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M68,48L72,48L72,76L68,76L68,48Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M76,48L80,48L80,76L76,76L76,48Z" />
+        <!-- Dome -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,28C60,28 65,32 65,37L65,40L43,40L43,37C43,32 48,28 54,28Z" />
+        <!-- Steps -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M16,80L92,80L92,84L16,84L16,80Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M12,84L96,84L96,88L12,88L12,84Z" />
+    </group>
+</vector>
+
