@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.congress.app-mergeDebugResources-48:/layout/item_congress_member.xml",
+        "source": "com.congress.app-main-51:/layout/item_congress_member.xml"
+    },
+    {
+        "merged": "com.congress.app-mergeDebugResources-48:/layout/activity_email_composer.xml",
+        "source": "com.congress.app-main-51:/layout/activity_email_composer.xml"
+    },
+    {
+        "merged": "com.congress.app-mergeDebugResources-48:/layout/activity_settings.xml",
+        "source": "com.congress.app-main-51:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.congress.app-mergeDebugResources-48:/layout/activity_calling.xml",
+        "source": "com.congress.app-main-51:/layout/activity_calling.xml"
+    },
+    {
+        "merged": "com.congress.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.congress.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.congress.app-mergeDebugResources-48:/layout/item_call_log.xml",
+        "source": "com.congress.app-main-51:/layout/item_call_log.xml"
+    },
+    {
+        "merged": "com.congress.app-mergeDebugResources-48:/layout/activity_contact_detail.xml",
+        "source": "com.congress.app-main-51:/layout/activity_contact_detail.xml"
+    }
+]

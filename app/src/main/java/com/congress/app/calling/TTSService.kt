@@ -9,7 +9,7 @@ import java.util.*
 import kotlin.coroutines.resume
 
 /**
- * Text-to-Speech service with natural voice synthesis for call scripts
+ * Text-to-Speech service using Android's built-in TTS engine
  */
 class TTSService(private val context: Context) {
     
@@ -19,25 +19,26 @@ class TTSService(private val context: Context) {
     
     private var tts: TextToSpeech? = null
     private var isInitialized = false
-    private var currentUtteranceId = 0
-    
-    data class TTSConfig(
-        val speechRate: Float = 0.8f,  // Slightly slower for clarity
-        val pitch: Float = 1.0f,
-        val language: Locale = Locale.US,
-        val voice: String? = null
-    )
     
     /**
-     * Initialize TTS engine
+     * Initialize the TTS engine
      */
     suspend fun initialize(): Boolean = suspendCancellableCoroutine { continuation ->
         tts = TextToSpeech(context) { status ->
             if (status == TextToSpeech.SUCCESS) {
-                isInitialized = true
-                setupTTS()
-                Log.i(TAG, "TTS initialized successfully")
-                continuation.resume(true)
+                val result = tts?.setLanguage(Locale.US)
+                isInitialized = result != TextToSpeech.LANG_MISSING_DATA && 
+                               result != TextToSpeech.LANG_NOT_SUPPORTED
+                
+                if (isInitialized) {
+                    // Configure TTS for natural speech
+                    tts?.setSpeechRate(0.9f) // Slightly slower for clarity
+                    tts?.setPitch(1.0f) // Normal pitch
+                    Log.i(TAG, "TTS initialized successfully")
+                } else {
+                    Log.e(TAG, "TTS language not supported")
+                }
+                continuation.resume(isInitialized)
             } else {
                 Log.e(TAG, "TTS initialization failed")
                 continuation.resume(false)
@@ -46,63 +47,22 @@ class TTSService(private val context: Context) {
     }
     
     /**
-     * Configure TTS with natural voice settings
-     */
-    private fun setupTTS() {
-        tts?.let { engine ->
-            // Set language
-            val result = engine.setLanguage(Locale.US)
-            if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
-                Log.w(TAG, "Language not supported")
-            }
-            
-            // Configure for natural speech
-            engine.setSpeechRate(0.8f)  // Slightly slower for clarity
-            engine.setPitch(1.0f)       // Normal pitch
-            
-            // Try to use a more natural voice if available
-            val voices = engine.voices
-            val naturalVoice = voices?.find { voice ->
-                voice.locale == Locale.US && 
-                (voice.name.contains("enhanced", true) || 
-                 voice.name.contains("neural", true) ||
-                 voice.name.contains("premium", true))
-            }
-            
-            if (naturalVoice != null) {
-                engine.voice = naturalVoice
-                Log.i(TAG, "Using enhanced voice: ${naturalVoice.name}")
-            } else {
-                Log.i(TAG, "Using default voice")
-            }
-        }
-    }
-    
-    /**
      * Speak text with natural voice
      */
-    suspend fun speak(text: String, config: TTSConfig = TTSConfig()): Boolean = 
-        suspendCancellableCoroutine { continuation ->
-            if (!isInitialized) {
-                Log.e(TAG, "TTS not initialized")
-                continuation.resume(false)
-                return@suspendCancellableCoroutine
-            }
-            
-            val utteranceId = "utterance_${++currentUtteranceId}"
-            
-            // Apply configuration
-            tts?.setSpeechRate(config.speechRate)
-            tts?.setPitch(config.pitch)
-            
-            // Set up progress listener
+    suspend fun speak(text: String, utteranceId: String = "default"): Boolean {
+        if (!isInitialized) {
+            Log.w(TAG, "TTS not initialized")
+            return false
+        }
+        
+        return suspendCancellableCoroutine { continuation ->
             tts?.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
                 override fun onStart(utteranceId: String?) {
-                    Log.d(TAG, "TTS started: $utteranceId")
+                    Log.d(TAG, "TTS started speaking: $utteranceId")
                 }
                 
                 override fun onDone(utteranceId: String?) {
-                    Log.d(TAG, "TTS completed: $utteranceId")
+                    Log.d(TAG, "TTS finished speaking: $utteranceId")
                     continuation.resume(true)
                 }
                 
@@ -112,32 +72,33 @@ class TTSService(private val context: Context) {
                 }
             })
             
-            // Speak the text
             val result = tts?.speak(text, TextToSpeech.QUEUE_FLUSH, null, utteranceId)
             if (result != TextToSpeech.SUCCESS) {
                 Log.e(TAG, "Failed to start TTS")
                 continuation.resume(false)
             }
         }
+    }
     
     /**
-     * Speak call script with pauses and natural pacing
+     * Read a script with natural pauses
      */
-    suspend fun speakScript(script: String, config: TTSConfig = TTSConfig()): Boolean {
-        if (!isInitialized) return false
+    suspend fun readScript(script: String): Boolean {
+        if (!isInitialized) {
+            return false
+        }
         
-        // Split script into sentences for natural pacing
+        // Split script into sentences for natural pauses
         val sentences = script.split(Regex("[.!?]+")).filter { it.trim().isNotEmpty() }
         
-        for (sentence in sentences) {
-            val trimmedSentence = sentence.trim()
-            if (trimmedSentence.isNotEmpty()) {
-                val success = speak(trimmedSentence, config)
-                if (!success) return false
-                
-                // Add natural pause between sentences
-                Thread.sleep(500)
+        for ((index, sentence) in sentences.withIndex()) {
+            val success = speak(sentence.trim(), "sentence_$index")
+            if (!success) {
+                return false
             }
+            
+            // Add natural pause between sentences
+            kotlinx.coroutines.delay(500)
         }
         
         return true
@@ -158,62 +119,73 @@ class TTSService(private val context: Context) {
     }
     
     /**
-     * Get available voices
+     * Set speech rate (0.5 to 2.0)
      */
-    fun getAvailableVoices(): List<String> {
-        return tts?.voices?.map { it.name } ?: emptyList()
+    fun setSpeechRate(rate: Float) {
+        tts?.setSpeechRate(rate.coerceIn(0.5f, 2.0f))
     }
     
     /**
-     * Set specific voice by name
+     * Set pitch (0.5 to 2.0)
      */
-    fun setVoice(voiceName: String): Boolean {
-        val voice = tts?.voices?.find { it.name == voiceName }
-        return if (voice != null) {
-            tts?.voice = voice
-            true
+    fun setPitch(pitch: Float) {
+        tts?.setPitch(pitch.coerceIn(0.5f, 2.0f))
+    }
+    
+    /**
+     * Get available voices
+     */
+    fun getAvailableVoices(): Set<android.speech.tts.Voice>? {
+        return if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+            tts?.voices
+        } else {
+            null
+        }
+    }
+    
+    /**
+     * Set voice (Android 5.0+)
+     */
+    fun setVoice(voice: android.speech.tts.Voice): Boolean {
+        return if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+            tts?.setVoice(voice) == TextToSpeech.SUCCESS
         } else {
             false
         }
     }
     
     /**
-     * Generate SSML for more natural speech
+     * Get preferred voice for natural speech
      */
-    fun generateSSML(text: String, pauseMs: Int = 500): String {
-        return """
-            <speak>
-                <prosody rate="0.8" pitch="1.0">
-                    ${text.replace(".", ".<break time=\"${pauseMs}ms\"/>")
-                           .replace("!", "!<break time=\"${pauseMs}ms\"/>")
-                           .replace("?", "?<break time=\"${pauseMs}ms\"/>")}
-                </prosody>
-            </speak>
-        """.trimIndent()
+    fun getPreferredVoice(): android.speech.tts.Voice? {
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+            val voices = getAvailableVoices()
+            
+            // Prefer high-quality English voices
+            return voices?.find { voice ->
+                voice.locale.language == "en" && 
+                voice.quality >= android.speech.tts.Voice.QUALITY_HIGH &&
+                !voice.isNetworkConnectionRequired
+            } ?: voices?.find { voice ->
+                voice.locale.language == "en" &&
+                !voice.isNetworkConnectionRequired
+            }
+        }
+        return null
     }
     
     /**
-     * Speak with SSML for enhanced naturalness
+     * Configure for best quality speech
      */
-    suspend fun speakWithSSML(ssml: String): Boolean = suspendCancellableCoroutine { continuation ->
-        if (!isInitialized) {
-            continuation.resume(false)
-            return@suspendCancellableCoroutine
+    fun configureBestQuality() {
+        getPreferredVoice()?.let { voice ->
+            setVoice(voice)
+            Log.i(TAG, "Set preferred voice: ${voice.name}")
         }
         
-        val utteranceId = "ssml_${++currentUtteranceId}"
-        
-        tts?.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
-            override fun onStart(utteranceId: String?) {}
-            override fun onDone(utteranceId: String?) { continuation.resume(true) }
-            override fun onError(utteranceId: String?) { continuation.resume(false) }
-        })
-        
-        // Note: SSML support varies by TTS engine
-        val result = tts?.speak(ssml, TextToSpeech.QUEUE_FLUSH, null, utteranceId)
-        if (result != TextToSpeech.SUCCESS) {
-            continuation.resume(false)
-        }
+        // Set optimal speech parameters for clarity
+        setSpeechRate(0.85f) // Slightly slower for better comprehension
+        setPitch(1.0f) // Normal pitch
     }
     
     /**
@@ -224,6 +196,7 @@ class TTSService(private val context: Context) {
         tts?.shutdown()
         tts = null
         isInitialized = false
+        Log.i(TAG, "TTS service shut down")
     }
 }
 

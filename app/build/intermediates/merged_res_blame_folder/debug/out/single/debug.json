@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.congress.app-merged_res-49:/drawable_party_badge_background.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/party_badge_background.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/layout_activity_settings.xml.flat",
+        "source": "com.congress.app-main-51:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/drawable_ic_person.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/layout_activity_email_composer.xml.flat",
+        "source": "com.congress.app-main-51:/layout/activity_email_composer.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/layout_activity_calling.xml.flat",
+        "source": "com.congress.app-main-51:/layout/activity_calling.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/drawable_ic_web.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_web.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/layout_item_congress_member.xml.flat",
+        "source": "com.congress.app-main-51:/layout/item_congress_member.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/drawable_ic_email.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/layout_activity_contact_detail.xml.flat",
+        "source": "com.congress.app-main-51:/layout/activity_contact_detail.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/xml_data_extraction_rules.xml.flat",
+        "source": "com.congress.app-main-51:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/layout_activity_main.xml.flat",
+        "source": "com.congress.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/drawable_ic_search.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/xml_backup_rules.xml.flat",
+        "source": "com.congress.app-main-51:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/layout_item_call_log.xml.flat",
+        "source": "com.congress.app-main-51:/layout/item_call_log.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/drawable_circle_button_background.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/circle_button_background.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/drawable_ic_phone.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.congress.app-merged_res-49:/drawable_circle_background.xml.flat",
+        "source": "com.congress.app-main-51:/drawable/circle_background.xml"
+    }
+]
